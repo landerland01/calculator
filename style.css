@@ -1,0 +1,237 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+}
+
+.container{
+    background-color: #B0E0E6;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+}
+
+.display{
+    background-color:#B0E0E6;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    
+}
+
+#text{
+    background-color: #B0C4DE;
+    color: #000000;
+    font-size: 20px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    border: 1px solid #B0C4DE;    
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: auto;
+}
+
+.memory_keyboard{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.keyboards{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.numeric_keyboard{
+    width: 45%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+
+#nul{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#one{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#two{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#three{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#four{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#five{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#six{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#seven{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#eight{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#nine{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ .control_keyboard{
+    width: 45%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+#dvs{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#times{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#plus{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+
+#minus{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#bac{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#rez{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+}
+
+#cl{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px #808080;
+    margin-left: 10%;
+    background-color: red;
+}
