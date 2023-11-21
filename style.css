@@ -163,6 +163,19 @@ body{
     margin-right: 10%;
 }
 
+
+#point{
+    width: 20%;
+    height: 20%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    box-shadow: 3px 3px black;
+    margin-left: 10%;
+    margin-right: 40%;
+
+}
+
+
  .control_keyboard{
     width: 45%;
     height: 150px;

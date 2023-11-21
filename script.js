@@ -115,6 +115,18 @@ function nine(){
     document.getElementById('text').textContent = s;
 }
 
+function point(){
+    let s = Zap();
+    if(s == 0){
+        return ;
+    }
+    else{
+        s = Zap() + ".";
+    }
+    document.getElementById('text').textContent = s;
+}
+
+
 function rez(){
     document.getElementById('text').innerHTML=eval(Zap());
 }
