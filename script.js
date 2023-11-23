@@ -4,6 +4,13 @@ function Zap(){
     return i;
 }
 
+
+// function Screen(){
+//     let ScreenWidht=window.innerWidth;
+//     let ScreenHeight=window.innerHeight;
+//     return ScreenWidht;
+// }
+
 function nul(){
     let s = Zap();
     if(s == 0){
